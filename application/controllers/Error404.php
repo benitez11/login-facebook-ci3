@@ -9,6 +9,10 @@ class Error404 extends CI_Controller {
    	$this->template->loadContent("admin/sv_dashboard", array());  	
    	
       //echo 'Error 404_____>. Usted está intentando acceder a una página que no existe.';
+	  //echo 'Error 404_____>. Usted está intentando acceder a una página que no existe.';
+	  //echo 'Error 404_____>. Usted está intentando acceder a una página que no existe.';	  
+   
+   
    }
 
 }
