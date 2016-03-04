@@ -4,9 +4,12 @@ if (!defined('BASEPATH'))
 
 class Error404 extends CI_Controller { 
 	
-   public function index(){   	
+   public function index(){   
+   
    	$this->template->set_layout("temas/error404.php"); 
+
    	$this->template->loadContent("admin/sv_dashboard", array());  	   	
+
    }
 
 }
